@@ -20,7 +20,7 @@ sed -i 's/net.netfilter.nf_conntrack_max=.*/net.netfilter.nf_conntrack_max=65535
 git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 
 #添加额外非必须软件包
-git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
+# git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 #git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 #添加smartdns
